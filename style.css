@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html{
+    font-size: 62,5%;
+}
+.header{
+    background-color: #98ddc4;
+    height: 9rem;
+    min-width: 380px;
+    border: 3px solid rgb(166, 183, 216)45;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom: 0px;
+}
+.header-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.header-logo{
+    width: 100%;
+    min-width: 380px;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+}
+.header-logo figure, .header-logo div{
+    margin: auto 10px;
+}
+.header-logo_texto{
+    font-size: 2.6rem;
+    font-weight: bold;
+    min-width: 280px;
+}
+.header-logo_imagen{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.header-navbar{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+/*
+    margin: 0 auto;
+    padding-bottom: 5px;
+    width: 70px;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}*/
+.header-nav_list li a{
+    color: #d690c5;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.6rem;
+    border-bottom: 2px solid rgb(219, 108, 141);
+}
+.header-nav_list li a:hover{
+    color: #57beca;
+}
+.section-one_title, .section-one_content{
+    color: black;
+}
+.content1-article_title, .content1-article_subtitle{
+    color: black;
+}
+.main{
+    background-color: rgb(215, 224, 240);
+    display: flex;
+    flex-direction: column;
+    min-width: 380px;
+}
+.section-one_title{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 2.6rem;
+    min-width: 380px;
+}
+.section-one{
+    width: 100%;
+    min-width: 380px;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-one_image{
+    order: 2;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.section1-image_1{
+    width: 100%;
+    max-width: 800px;
+    min-width: 260px;
+    border: 3px solid #8e701e;
+    border-radius: 15px;
+}
+.section1-image_2{
+    width: 100%;
+    max-width: 800px;
+    min-width: 260px;
+    border: 3px solid #8e701e;
+    border-radius: 15px;
+    visibility: hidden;
+    display: none;
+}
+.section-one_image figcaption{
+    margin-bottom: 15px;
+}
+.section-one_content{
+    order: 3;
+}
+.content1-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    padding: 0 25px;
+    min-width: 380px;
+}
+.article-one{
+    margin-top: 0;
+}
+.content1-article_title, .content1-article_subtitle, .content1-article_text{
+    margin: 0 auto;
+    margin-top: 8px;
+}
+.section-two_title{
+    font-size: 2.6rem;
+    color: white;
+    border-top: 2px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    min-width: 380px;
+}
+.section-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-two_products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 280px;
+    background-color: #794137;
+    margin: 5px;
+    border: 2px solid #630015;
+    border-radius: 30px;
+}
+.products-figure{
+    height: 70%;
+}
+.products-figure img{
+    width: 90%;
+    height: 90%;
+    max-width: 270px;
+    max-height: 230px;
+}
+.product-content{
+    margin-top: 20px;
+    border-top: 3px solid black;
+    border-radius: 3px;
+    height: 20%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.products-name, .products-price, .products-buttom{
+    font-size: 1.8rem;
+}
+.products-name, .products-price{
+   color: black;
+   margin-right: 15px; 
+}
+.products-buttom{
+    border-radius: 5px;
+    border: 2px solid black;
+}
